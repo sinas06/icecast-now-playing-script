@@ -5,6 +5,7 @@
 	works with Icecast 2.3.2
 */
 
+
 require('config.php');
 $stream = getStreamInfo();
 if($stream['info']['status'] == 'OFF AIR'){
